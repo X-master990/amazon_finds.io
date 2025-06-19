@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>每日精選好物</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    h1 {
+      text-align: center;
+      font-weight: 600;
+      color: #333;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+      display: flex;
+      gap: 20px;
+      padding: 20px;
+      margin-bottom: 24px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .card img {
+      width: 180px;
+      border-radius: 8px;
+      flex-shrink: 0;
+    }
+    .card div {
+      flex: 1;
+    }
+    .card h2 {
+      margin-top: 0;
+      color: #222;
+    }
+    .card p {
+      color: #555;
+      line-height: 1.5;
+    }
+    .buy-btn {
+      display: inline-block;
+      margin-top: 12px;
+      background: #ff9000;
+      color: white;
+      padding: 10px 16px;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+    .buy-btn:hover {
+      background: #e37e00;
+    }
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>每日精選好物</h1>
+
+    <div class="card">
+      <img src="A.jpg" alt="Ice Maker">
+      <div>
+        <h2>❄️ Ice maker</h2>
+        <p>If you're tired of running out of ice during gatherings or hot summer days, the Silonn Ice Maker is a game-changer. It produces fresh bullet-shaped ice cubes in just minutes and holds a generous amount. Compact, efficient, and easy to use—this is the perfect companion for home, office, or parties.</p>
+        <a class="buy-btn" href="https://amzn.to/3ZE9TYT" target="_blank">Buy on Amazon →</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="B.jpg" alt="Tower Fan">
+      <div>
+        <h2>🌬️ Tower fan</h2>
+        <p>Stay cool and comfortable with the Dreo Tower Fan. Its sleek, modern design fits seamlessly into any room, while powerful airflow and customizable settings deliver instant relief. The included remote and quiet operation make it ideal for both work and sleep environments.</p>
+        <a class="buy-btn" href="https://amzn.to/3HP82uf" target="_blank">Buy on Amazon →</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="C.jpg" alt="Standing Desk">
+      <div>
+        <h2>🖥️ Standing desk</h2>
+        <p>Upgrade your workspace with this sleek electric standing desk, designed for productivity and comfort. With programmable height presets and a spacious surface, it easily accommodates multiple monitors and accessories. Perfect for work-from-home setups or modern offices.</p>
+        <a class="buy-btn" href="https://amzn.to/3FMkBpD" target="_blank">Buy on Amazon →</a>
+      </div>
+    </div>
+
+    <footer>
+      <p>As an Amazon Associate I earn from qualifying purchases.</p>
+    </footer>
+  </div>
+</body>
+</html>
